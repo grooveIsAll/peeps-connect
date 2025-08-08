@@ -1,12 +1,16 @@
 .heroSection {
-
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  aspect-ratio: 7 / 4;
 }
 
 .heroImg {
-  background-image: url('src/assets/page-imgs/hero.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-  max-width: 1400px;
   width: 100%;
+  height: 100%;
+  background-image: url('src/assets/page-imgs/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  // display: block;
 }
