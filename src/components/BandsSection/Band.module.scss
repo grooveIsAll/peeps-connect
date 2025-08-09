@@ -1,0 +1,25 @@
+.band {
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+.bandName {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.bandDescription {
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.bandSocials {
+  display: flex;
+  gap: 10px;
+}
+
+.socialIcon {
+  width: 40px;
+}

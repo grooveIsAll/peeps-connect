@@ -41,7 +41,14 @@ const Band = ({
   const socialIcons = socialLinks.reduce((acc, link) => {
     const icon = platformLookup[link.platform.toLowerCase()];
     if (icon) {
-      acc.push(<ClickableIcon key={link.platform} icon={icon} url={link.url} />);
+      acc.push(
+      <ClickableIcon
+        key={link.platform}
+        icon={icon}
+        url={link.url}
+        styleConfig={{ imgClass: styles.socialIcon }}
+      />
+    );
     }
     return acc;
   }, [] as ReactNode[]);

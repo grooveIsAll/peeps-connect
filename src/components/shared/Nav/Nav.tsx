@@ -1,9 +1,14 @@
+import ClickableIcon from '../ClickableIcon/ClickableIcon';
+
+import { Icons } from '../../../assets/icons/Icons';
 import styles from './Nav.module.scss';
+
+const { facebook, instagramDark } = Icons;
 
 const Nav = () => {
   return (
     <nav className={styles.nav}>
-      <img className={styles.logo} src="#" alt="Peeps Connect Logo" />
+      <img className={styles.logo} src={'mustache'} alt="Peeps Connect Logo" />
       <div className={styles.linksContainer}>
         <div className={styles.linksRight}>
           <a
@@ -39,20 +44,17 @@ const Nav = () => {
           <button>
             TICKETS SOON
           </button>
-          <a
-            className={styles.link}
-            href="https://google.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-              FB</a>
-          <a
-            className={styles.link}
-            href="https://google.com"
-            target="_blank"
-            rel="noreferrer"
-          >
-              IG</a>
+          <ClickableIcon
+            icon={facebook}
+            url="https://google.com"
+            // className={styles.icon}
+          />
+
+          <ClickableIcon
+            icon={instagramDark}
+            url="https://google.com"
+            // className={styles.icon}
+          />
         </div>
       </div>
     </nav>

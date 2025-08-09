@@ -13,5 +13,5 @@ export const Icons = {
   web: webIcon,
   soundcloud: soundcloudIcon,
   facebook: facebookIcon,
-  instagramDark: instagramDarkIcon
+  instagramDark: instagramDarkIcon,
 };
