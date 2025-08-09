@@ -3,6 +3,7 @@ import Hero from './components/HeroSection/HeroSection'
 import StillFlying from './components/StillFlyingSection/StillFlyingSection'
 import TicsDropping from './components/TicsDroppingSection/TicsDroppingSection'
 import Lineup from './components/LineupSection/LineupSection'
+import Bands from './components/BandsSection/BandsSection'
 
 import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
       <StillFlying />
       <TicsDropping />
       <Lineup />
+      <Bands />
     </div>
   )
 }

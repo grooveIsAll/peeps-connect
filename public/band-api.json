@@ -4,23 +4,23 @@
       {
         "id": "1",
         "name": "Frank Moody",
-        "image": "public/assets/band-imgs/01_FrancMoody.jpg",
+        "image": "public/band-imgs/01_FrancMoody.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -28,23 +28,23 @@
       {
         "id": "2",
         "name": "MoodyMan",
-        "image": "public/assets/band-imgs/02_Moodymann.jpg",
+        "image": "public/band-imgs/02_Moodymann.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -52,23 +52,23 @@
       {
         "id": "3",
         "name": "High Fade",
-        "image": "public/assets/band-imgs/03_HighFade.jpg",
+        "image": "public/band-imgs/03_HighFade.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -76,23 +76,23 @@
       {
         "id": "4",
         "name": "Young Franco",
-        "image": "public/assets/band-imgs/04_YoungFranco.jpg",
+        "image": "public/band-imgs/04_YoungFranco.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -100,23 +100,23 @@
       {
         "id": "5",
         "name": "Natash Diggs",
-        "image": "public/assets/band-imgs/05_NatashaDiggs.jpg",
+        "image": "public/band-imgs/05_NatashaDiggs.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -124,15 +124,15 @@
       {
         "id": "6",
         "name": "The Mustache Bash Family Band",
-        "image": "public/assets/band-imgs/06_FamilyBand.jpg",
+        "image": "public/band-imgs/06_FamilyBand.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           }
         ]
@@ -140,23 +140,23 @@
       {
         "id": "7",
         "name": "Never Dull",
-        "image": "public/assets/band-imgs/07_NeverDull.jpg",
+        "image": "public/band-imgs/07_NeverDull.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -164,23 +164,23 @@
       {
         "id": "8",
         "name": "The B Sections",
-        "image": "public/assets/band-imgs/08_BSections.jpg",
+        "image": "public/band-imgs/08_BSections.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -188,22 +188,22 @@
       {
         "id": "9",
         "name": "3Kelves B2B Dylan C Greene",
-        "image": "public/assets/band-imgs/09_3KelvesB2B.jpg",
+        "image": "public/band-imgs/09_3KelvesB2B.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": []
+        "socialLinks": []
       },
       {
         "id": "10",
         "name": "Discotoshi",
-        "image": "public/assets/band-imgs/10_Discotoshi.jpg",
+        "image": "public/band-imgs/10_Discotoshi.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "soundcloud",
+            "platform": "soundcloud",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           }
         ]
@@ -211,23 +211,23 @@
       {
         "id": "11",
         "name": "DJ Dials",
-        "image": "public/assets/band-imgs/11_DJDials.jpg",
+        "image": "public/band-imgs/11_DJDials.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -235,30 +235,30 @@
       {
         "id": "12",
         "name": "Abby Normal",
-        "image": "public/assets/band-imgs/12_AbbyNormal.jpg",
+        "image": "public/band-imgs/12_AbbyNormal.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": []
+        "socialLinks": []
       },
       {
         "id": "13",
         "name": "Groovewell",
-        "image": "public/assets/band-imgs/13_Groovewell.jpg",
+        "image": "public/band-imgs/13_Groovewell.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -266,19 +266,19 @@
       {
         "id": "14",
         "name": "He2She",
-        "image": "public/assets/band-imgs/14_He2She.jpg",
+        "image": "public/band-imgs/14_He2She.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "soundcloud",
+            "platform": "soundcloud",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           }
         ]
@@ -286,23 +286,23 @@
       {
         "id": "15",
         "name": "Voss & Things",
-        "image": "public/assets/band-imgs/15_Voss&Things.jpg",
+        "image": "public/band-imgs/15_Voss&Things.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "spotify",
+            "platform": "spotify",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           },
           {
-            "type": "youtube",
+            "platform": "youtube",
             "url": "https://google.com"
           },
           {
-            "type": "website",
+            "platform": "website",
             "url": "https://google.com"
           }
         ]
@@ -310,22 +310,22 @@
       {
         "id": "16",
         "name": "DJ M3",
-        "image": "public/assets/band-imgs/16_DJM3.jpg",
+        "image": "public/band-imgs/16_DJM3.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": []
+        "socialLinks": []
       },
       {
         "id": "17",
         "name": "Cool Sexy DJ",
-        "image": "public/assets/band-imgs/17_CoolSexyDJ.jpg",
+        "image": "public/band-imgs/17_CoolSexyDJ.jpg",
         "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "social": [
+        "socialLinks": [
           {
-            "type": "soundcloud",
+            "platform": "soundcloud",
             "url": "https://google.com"
           },
           {
-            "type": "instagram",
+            "platform": "instagram",
             "url": "https://google.com"
           }
         ]
