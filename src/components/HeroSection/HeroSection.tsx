@@ -1,6 +1,6 @@
-import styles from './Hero.module.scss';
+import styles from './HeroSection.module.scss';
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <section className={styles.heroSection}>
       <div className={styles.heroImg} />
@@ -8,4 +8,4 @@ const Hero = () => {
   );
 }
 
-export default Hero;
+export default HeroSection;

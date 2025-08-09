@@ -1,5 +1,6 @@
 import Nav from './components/shared/Nav/Nav'
-import Hero from './components/Hero/Hero'
+import Hero from './components/HeroSection/HeroSection'
+import StillFlying from './components/StillFlyingSection/StillFlyingSection'
 
 import './App.css'
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Nav />
       <Hero />
+      <StillFlying />
     </div>
   )
 }

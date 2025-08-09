@@ -1,0 +1,27 @@
+.stillFlyingSection {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  background: var(--color-grey);
+  padding: 0 96px;
+}
+
+.contentRight {
+  font-size: 48px;
+  color: var(--color-black);
+  flex: 5;
+  text-transform: uppercase;
+}
+
+.contentLeft {
+  flex: 4;
+  text-align: center;
+}
+
+.link {
+  color: var(--color-red);
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
