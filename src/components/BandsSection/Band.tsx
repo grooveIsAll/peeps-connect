@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 import ClickableIcon from "../shared/ClickableIcon/ClickableIcon";
 import { Icons } from "../../assets/icons/Icons";
 
@@ -16,9 +18,13 @@ type SocialLink = {
   url: string;
 };
 
+type StringMap = {
+  [key: string]: string;
+};
+
 const { instagram, spotify, youtube, web, soundcloud } = Icons;
 
-const platformLookup = {
+const platformLookup: StringMap = {
   instagram,
   spotify,
   youtube,
@@ -38,7 +44,7 @@ const Band = ({
       acc.push(<ClickableIcon key={link.platform} icon={icon} url={link.url} />);
     }
     return acc;
-  }, []);
+  }, [] as ReactNode[]);
 
   return (
     <div className={styles.band}>

@@ -1,6 +1,11 @@
 import styles from './ClickableIcon.module.scss'
 
-const ClickableIcon = ({ icon, url }) => {
+type ClickableIconProps = {
+  icon: string;
+  url: string;
+};
+
+const ClickableIcon = ({ icon, url }: ClickableIconProps) => {
   return (
     <a
       className={styles.iconLink}
@@ -11,7 +16,7 @@ const ClickableIcon = ({ icon, url }) => {
       <img
         className={styles.iconImg}
         src={icon}
-        alt={''}
+        alt=""
       />
     </a>
   );

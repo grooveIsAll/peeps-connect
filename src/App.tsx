@@ -9,14 +9,14 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
       <Hero />
       <StillFlying />
       <TicsDropping />
       <Lineup />
       <Bands />
-    </div>
+    </>
   )
 }
 
