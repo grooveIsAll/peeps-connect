@@ -1,0 +1,16 @@
+.lineupSection {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  aspect-ratio: 7 / 4;
+}
+
+.lineupImg {
+  background-image: url('src/assets/page-imgs/lineup.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
