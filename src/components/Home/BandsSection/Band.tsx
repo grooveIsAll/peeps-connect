@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 
 import ClickableIcon from "../../shared/ClickableIcon/ClickableIcon";
-import { Icons } from "../../../assets/icons/Icons";
 
+import { Icons } from "../../../assets/icons/Icons";
 import styles from "./Band.module.scss";
 
 export type BandProps = {

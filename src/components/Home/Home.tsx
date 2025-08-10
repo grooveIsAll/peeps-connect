@@ -1,4 +1,3 @@
-import Nav from '../shared/Nav/Nav'
 import Hero from './HeroSection/HeroSection'
 import StillFlying from './StillFlyingSection/StillFlyingSection'
 import TicsDropping from './TicsDroppingSection/TicsDroppingSection'
@@ -9,16 +8,13 @@ import styles from './Home.module.scss'
 
 function Home() {
   return (
-    <>
-      <Nav />
-      <section className={styles.home}>
-        <Hero />
-        <StillFlying />
-        <TicsDropping />
-        <Lineup />
-        <Bands />
-      </section>
-    </>
+    <section className={styles.home}>
+      <Hero />
+      <StillFlying />
+      <TicsDropping />
+      <Lineup />
+      <Bands />
+    </section>
   )
 }
 
