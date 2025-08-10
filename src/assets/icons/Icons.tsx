@@ -3,8 +3,8 @@ import spotifyIcon from './spotify.svg';
 import youtubeIcon from './youtube.svg';
 import webIcon from './www.svg';
 import soundcloudIcon from './soundcloud.svg';
-import facebookIcon from './fb-outlined.svg';
-import instagramDarkIcon from './ig-dark.svg';
+import facebookIcon from './fb-dark.png';
+import instagramDarkIcon from './ig-dark.png';
 
 export const Icons = {
   instagram: instagramIcon,

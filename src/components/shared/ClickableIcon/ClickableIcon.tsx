@@ -3,17 +3,18 @@ import styles from './ClickableIcon.module.scss'
 type ClickableIconProps = {
   icon: string;
   url: string;
+  linkTarget?: "_blank" | "_self";
   styleConfig?: {
     linkClass?: string;
     imgClass?: string;
   };
 };
 
-const ClickableIcon = ({ icon, url, styleConfig }: ClickableIconProps) => {
+const ClickableIcon = ({ icon, url, styleConfig, linkTarget="_blank" }: ClickableIconProps) => {
   return (
     <a
       className={`${styles.iconLink} ${styleConfig?.linkClass}`}
-      target={'_blank'}
+      target={linkTarget}
       rel="noreferrer"
       href={url}
     >

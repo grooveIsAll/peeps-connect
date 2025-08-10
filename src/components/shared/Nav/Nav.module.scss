@@ -11,9 +11,22 @@
   background: var(--color-black);
 }
 
+.logoContainer {
+  display: flex;
+  max-width: 300px;
+  align-items: center;
+  gap: 5px;
+}
+
 .logo {
-  width: 75px;
-  height: auto;
+  width: 140px;
+  flex: 1;
+}
+
+.logoText {
+  flex: 1;
+  color: var(--color-blue);
+  text-transform: uppercase;
 }
 
 .link {
@@ -48,4 +61,26 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.ticketButton {
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+  padding: 10px 32px;
+  border: none;
+  border-radius: 32px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  transition: background-color .2s ease-in-out;
+
+  &:hover {
+    background-color: var(--color-yellow-light);
+  }
+}
+
+.socialIcon {
+  margin-right: 0;
 }
