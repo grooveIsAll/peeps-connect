@@ -21,18 +21,21 @@
 .logo {
   width: 140px;
   flex: 1;
+  line-height: 22px;
+  align-self: flex-start;
 }
 
 .logoText {
   flex: 1;
   color: var(--color-blue);
   text-transform: uppercase;
+  align-self: flex-start;
 }
 
 .link {
   color: var(--color-white);
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 700;
   text-decoration: none;
   transition: color .2s ease-in-out;
   cursor: pointer;
@@ -50,14 +53,14 @@
   width: 100%;
 }
 
-.linksRight {
+.linksLeft {
   display: flex;
   align-items: center;  
   justify-content: space-between;
   gap: 40px;
 }
 
-.linksLeft {
+.linksRight {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -72,8 +75,9 @@
   cursor: pointer;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 22px;
   transition: background-color .2s ease-in-out;
 
   &:hover {
@@ -83,4 +87,114 @@
 
 .socialIcon {
   margin-right: 0;
+}
+
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--color-white);
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobileOverlay {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .nav {
+    padding: 0 32px;
+    height: 80px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .logoText {
+    flex: .7;
+    font-size: 12px;
+  }
+
+  .linksContainer {
+    gap: 20px;
+  }
+
+  .linksLeft, .linksRight {
+    gap: 10px;
+  }
+
+  .ticketButton {
+    font-size: 12px;
+    padding: 6px 16px;
+  }
+
+  .socialIcon {
+    width: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 0 20px;
+    gap: 10px;
+  }
+
+  .linksContainer {
+    display: none
+  }
+
+  .menuButton {
+    display: flex;
+    justify-content: end;
+  }
+
+  .mobileOverlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-black);
+    z-index: 1001;
+    padding-top: 60px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+  }
+  .mobileOverlay.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .closeButton {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    background: none;
+    border: none;
+    color: var(--color-white);
+    font-size: 36px;
+    cursor: pointer;
+    z-index: 1002;
+  }
+
+  .overlayLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+    width: 100%;
+  }
+
+  .overlaySocials {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+  }
 }
