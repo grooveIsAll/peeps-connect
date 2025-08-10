@@ -6,7 +6,7 @@ import { Icons } from "../../../assets/icons/Icons";
 import mustacheLogo from "../../../assets/page-imgs/mustache.jpg";
 import styles from "./Nav.module.scss";
 
-const { facebook, instagramDark } = Icons;
+const { facebook, instagramDark, hamburger } = Icons;
 const googleLink = "https://google.com";
 
 const Nav = () => {
@@ -31,7 +31,9 @@ const Nav = () => {
         onClick={() => setMenuOpen((prev) => !prev)}
         aria-label="Open menu"
       >
-        <span className={styles.menuIcon}>X</span>
+        <span className={styles.menuIcon}>
+          <img src={hamburger} alt="" />
+        </span>
       </button>
       <div className={`${styles.mobileOverlay} ${menuOpen ? styles.open : ""}`}>
         <button

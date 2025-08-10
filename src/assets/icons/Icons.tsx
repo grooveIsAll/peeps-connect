@@ -5,6 +5,7 @@ import webIcon from './www.png';
 import soundcloudIcon from './soundcloud.png';
 import facebookIcon from './fb-dark.png';
 import instagramDarkIcon from './ig-dark.png';
+import hamburgerIcon from './hamburger.svg';
 
 export const Icons = {
   instagram: instagramIcon,
@@ -14,4 +15,5 @@ export const Icons = {
   soundcloud: soundcloudIcon,
   facebook: facebookIcon,
   instagramDark: instagramDarkIcon,
+  hamburger: hamburgerIcon,
 };

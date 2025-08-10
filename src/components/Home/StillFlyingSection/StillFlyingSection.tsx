@@ -1,5 +1,5 @@
 
-import videoCover from '../../assets/page-imgs/video-cover.webp';
+import videoCover from '../../../assets/page-imgs/video-cover.webp';
 import styles from './StillFlyingSection.module.scss';
 
 const StillFlyingSection = () => {
