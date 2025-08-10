@@ -14,36 +14,38 @@ const Nav = () => {
 
   return (
     <nav className={styles.nav}>
-      <div className={styles.logoContainer}>
-        <ClickableIcon
-          icon={mustacheLogo}
-          url="/"
-          linkTarget="_self"
-          styleConfig={{ imgClass: styles.logo }}
-        />
-        <span className={styles.logoText}>
-          Upcoming bash in San Diego March 23, 2024
-        </span>
-      </div>
-      <DesktopLinks />
-      <button
-        className={styles.menuButton}
-        onClick={() => setMenuOpen((prev) => !prev)}
-        aria-label="Open menu"
-      >
-        <span className={styles.menuIcon}>
-          <img src={hamburger} alt="" />
-        </span>
-      </button>
-      <div className={`${styles.mobileOverlay} ${menuOpen ? styles.open : ""}`}>
+      <div className={styles.navContainer}>
+        <div className={styles.logoContainer}>
+          <ClickableIcon
+            icon={mustacheLogo}
+            url="/"
+            linkTarget="_self"
+            styleConfig={{ imgClass: styles.logo }}
+          />
+          <span className={styles.logoText}>
+            Upcoming bash in San Diego March 23, 2024
+          </span>
+        </div>
+        <DesktopLinks />
         <button
-          className={styles.closeButton}
-          onClick={() => setMenuOpen(false)}
-          aria-label="Close menu"
+          className={styles.menuButton}
+          onClick={() => setMenuOpen((prev) => !prev)}
+          aria-label="Open menu"
         >
-          ×
+          <span className={styles.menuIcon}>
+            <img src={hamburger} alt="" />
+          </span>
         </button>
-        <MobileLinks />
+        <div className={`${styles.mobileOverlay} ${menuOpen ? styles.open : ""}`}>
+          <button
+            className={styles.closeButton}
+            onClick={() => setMenuOpen(false)}
+            aria-label="Close menu"
+          >
+            ×
+          </button>
+          <MobileLinks />
+        </div>
       </div>
     </nav>
   );

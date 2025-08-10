@@ -13,20 +13,21 @@ const TicsDroppingSection = () => {
       </div>
       <div className={styles.contentRight}>
         <div className={styles.contentContainer}>
-          <h2 className={styles.title}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed</h2>
+          <h2 className={styles.title}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          </h2>
           <p className={styles.description}>
             lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. lorem
             ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. lorem ipsum dolor
-            sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-            sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-            sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-            sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut
+            tempor incididunt ut labore et dolore magna aliqua. lorem ipsum
+            dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. sit amet, consectetur
+            adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. sit
+            amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+            ut
           </p>
           <a
             className={styles.followButton}

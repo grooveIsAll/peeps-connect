@@ -1,14 +1,17 @@
 .nav {
+  width: 100%;
+  background: var(--color-black);
+}
+
+.navContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 96px;
   height: 100px;
   width: 100%;
-  max-width: 1400px;
   margin: 0 auto;
   transition: all .2s ease-in-out;
-  background: var(--color-black);
 }
 
 .logoContainer {
@@ -34,7 +37,7 @@
 
 .link {
   color: var(--color-white);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-decoration: none;
   transition: color .2s ease-in-out;
@@ -103,7 +106,7 @@
 }
 
 @media (max-width: 1280px) {
-  .nav {
+  .navContainer {
     padding: 0 32px;
     height: 80px;
   }
@@ -114,7 +117,7 @@
 
   .logoText {
     flex: .7;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .linksContainer {
@@ -126,7 +129,7 @@
   }
 
   .ticketButton {
-    font-size: 12px;
+    font-size: 14px;
     padding: 6px 16px;
   }
 
@@ -136,7 +139,7 @@
 }
 
 @media (max-width: 768px) {
-  .nav {
+  .navContainer {
     padding: 0 20px;
     gap: 10px;
   }

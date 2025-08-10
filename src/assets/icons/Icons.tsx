@@ -6,6 +6,7 @@ import soundcloudIcon from './soundcloud.png';
 import facebookIcon from './fb-dark.png';
 import instagramDarkIcon from './ig-dark.png';
 import hamburgerIcon from './hamburger.svg';
+import playIcon from './play.png';
 
 export const Icons = {
   instagram: instagramIcon,
@@ -13,6 +14,7 @@ export const Icons = {
   youtube: youtubeIcon,
   web: webIcon,
   soundcloud: soundcloudIcon,
+  play: playIcon,
   facebook: facebookIcon,
   instagramDark: instagramDarkIcon,
   hamburger: hamburgerIcon,

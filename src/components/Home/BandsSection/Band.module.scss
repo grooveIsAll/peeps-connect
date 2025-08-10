@@ -6,7 +6,7 @@
 .bandName {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin: 8px 0;
   text-transform: uppercase;
 }
 
@@ -22,4 +22,14 @@
 
 .socialIcon {
   width: 40px;
+}
+
+@media (max-width: 768px) {
+  .bandName {
+    font-size: 18px;
+  }
+
+  .bandDescription {
+    font-size: 14px;
+  }
 }

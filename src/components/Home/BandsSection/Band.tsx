@@ -30,25 +30,20 @@ const platformLookup: StringMap = {
   youtube,
   web,
   soundcloud,
-}
+};
 
-const Band = ({
-  name,
-  image,
-  description,
-  socialLinks,
-} : BandProps) => {
+const Band = ({ name, image, description, socialLinks }: BandProps) => {
   const socialIcons = socialLinks.reduce((acc, link) => {
     const icon = platformLookup[link.platform.toLowerCase()];
     if (icon) {
       acc.push(
-      <ClickableIcon
-        key={link.platform}
-        icon={icon}
-        url={link.url}
-        styleConfig={{ imgClass: styles.socialIcon }}
-      />
-    );
+        <ClickableIcon
+          key={link.platform}
+          icon={icon}
+          url={link.url}
+          styleConfig={{ imgClass: styles.socialIcon }}
+        />
+      );
     }
     return acc;
   }, [] as ReactNode[]);
@@ -58,10 +53,8 @@ const Band = ({
       <img src={image} alt={name} className={styles.bandImage} />
       <h3 className={styles.bandName}>{name}</h3>
       <p className={styles.bandDescription}>{description}</p>
-      { socialIcons.length ? (
-        <div className={styles.bandSocials}>
-          {socialIcons}
-        </div>
+      {socialIcons.length ? (
+        <div className={styles.bandSocials}>{socialIcons}</div>
       ) : null}
     </div>
   );

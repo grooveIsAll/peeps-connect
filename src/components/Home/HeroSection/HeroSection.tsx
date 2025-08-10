@@ -1,4 +1,4 @@
-import styles from './HeroSection.module.scss';
+import styles from "./HeroSection.module.scss";
 
 const HeroSection = () => {
   return (
@@ -6,6 +6,6 @@ const HeroSection = () => {
       <div className={styles.heroImg} />
     </section>
   );
-}
+};
 
 export default HeroSection;

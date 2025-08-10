@@ -2,6 +2,14 @@
   padding: 0 96px;
 }
 
+.title {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 96px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .bandsList {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -15,6 +23,11 @@
 }
 
 @media (max-width: 768px) {
+  .title {
+    font-size: 16px;
+    margin: 32px 0;
+  }
+
   .bandsList {
     grid-template-columns: 1fr;
   }

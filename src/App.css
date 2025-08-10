@@ -1,5 +1,4 @@
 #root {
-  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -79,9 +78,6 @@ a {
   text-underline-offset: 2px;
   color: inherit;
   transition: all 0.1s ease;
-  &:hover {
-    color: var(--color-accent-800);
-  }
 }
 
 ul {

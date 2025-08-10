@@ -1,4 +1,4 @@
-import styles from './ClickableIcon.module.scss'
+import styles from "./ClickableIcon.module.scss";
 
 type ClickableIconProps = {
   icon: string;
@@ -10,7 +10,12 @@ type ClickableIconProps = {
   };
 };
 
-const ClickableIcon = ({ icon, url, styleConfig, linkTarget="_blank" }: ClickableIconProps) => {
+const ClickableIcon = ({
+  icon,
+  url,
+  styleConfig,
+  linkTarget = "_blank",
+}: ClickableIconProps) => {
   return (
     <a
       className={`${styles.iconLink} ${styleConfig?.linkClass}`}
