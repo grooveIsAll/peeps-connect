@@ -9,6 +9,8 @@ import styles from "./Nav.module.scss";
 const { facebook, instagramDark, hamburger } = Icons;
 const googleLink = "https://google.com";
 
+// TODO: refactor, remove duplicate elements
+
 const Nav = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -29,7 +31,7 @@ const Nav = () => {
         <DesktopLinks />
         <button
           className={styles.menuButton}
-          onClick={() => setMenuOpen((prev) => !prev)}
+          onClick={() => setMenuOpen(true)}
           aria-label="Open menu"
         >
           <span className={styles.menuIcon}>

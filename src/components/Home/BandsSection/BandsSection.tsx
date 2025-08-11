@@ -4,6 +4,11 @@ import Band, { BandProps } from "./Band";
 
 import styles from "./BandsSection.module.scss";
 
+// TODO:
+// break out fetchBands call into a custom hook
+// the custom hook should create store the data using Context API
+// and should return the data, loading state, and error state
+
 const BandsSection = () => {
   const [bands, setBands] = useState<BandProps[]>([]);
 

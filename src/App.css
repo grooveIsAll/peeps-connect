@@ -101,3 +101,10 @@ td {
   padding: 16px 20px;
   border: 1px solid var(--color-main-500);
 }
+
+/* TODO:
+- Create a global SCSS file for shared styles and variables
+  - move root and reset styles there
+- Create a typography SCSS file for font styles
+  - add font sizes, weights, and line heights
+*/
