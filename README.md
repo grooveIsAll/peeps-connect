@@ -1,7 +1,7 @@
 # Peeps Connect 
 
 - Run `nvm install 22 && nvm use 22` to use node v22
-- Run `npm install && npm run dev` for a dev server. Navigate to http://localhost:5174/
+- Run `npm install && npm run start` for a dev server. Navigate to http://localhost:5174/
 
 ## Take Home React UI Challenge
 Using the provided comp and assets, create a locally running page (via 'npm run start') that matches the layout and design. Time spent should be between 1-2hrs - we're looking more to gauge thought process and workflow rather than speed of completion.
